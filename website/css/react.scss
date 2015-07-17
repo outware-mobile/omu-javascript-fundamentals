@@ -144,13 +144,13 @@ h1, h2, h3, h4, h5, h6 {
       &.active {
         color: $lightTextColor;
         border-bottom: 3px solid $primary;
-        background: #333;
+        background: #19a7ff;
       }
     }
   }
 
   .nav-home {
-    color: #00d8ff;
+    color: #fff;
     font-size: 24px;
     line-height: $navHeight;
     height: $navHeight;

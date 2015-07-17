@@ -35,8 +35,7 @@
     <div class="nav-main">
       <div class="wrap">
         <a class="nav-home" href="index.html">
-          <img class="nav-logo" src="img/logo.svg" width="36" height="36">
-          React
+          Outware
         </a>
         <ul class="nav-site nav-site-internal">
           <li><a href="docs/getting-started.html"{% if page.sectionid == 'docs' or page.sectionid == 'tips' %} class="active"{% endif %}>Docs</a></li>
@@ -50,22 +49,6 @@
         </ul>
       </div>
     </div>
-
-    {% if page.id == 'home' %}
-    <div class="hero">
-      <div class="wrap">
-        <div class="text"><strong>React</strong></div>
-        <div class="minitext">
-          A JavaScript library for building user interfaces
-        </div>
-
-        <div class="buttons-unit">
-          <a href="docs/getting-started.html" class="button">Get Started</a>
-          <a href="/training/downloads.html" class="button">Download React v{{site.react_version}}</a>
-        </div>
-      </div>
-    </div>
-    {% endif %}
 
     {{ content }}
 
