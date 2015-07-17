@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }} | React</title>
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}{{ site.baseurl }}/feed.xml">
+
+  <link rel="stylesheet" href="css/syntax.css">
+  <link rel="stylesheet" href="css/codemirror.css">
+  <link rel="stylesheet" href="css/react.css">
+
+  <script type="text/javascript" src="//use.typekit.net/vqa1hcx.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!--[if lte IE 8]>
+  <script type="text/javascript" src="js/html5shiv.min.js"></script>
+  <script type="text/javascript" src="js/es5-shim.min.js"></script>
+  <script type="text/javascript" src="js/es5-sham.min.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="js/codemirror.js"></script>
+  <script type="text/javascript" src="js/javascript.js"></script>
+  <script type="text/javascript" src="js/react.js"></script>
+  <script type="text/javascript" src="js/JSXTransformer.js"></script>
+  <script type="text/javascript" src="js/live_editor.js"></script>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="nav-main">
+      <div class="wrap">
+        <a class="nav-home" href="index.html">
+          <img class="nav-logo" src="img/logo.svg" width="36" height="36">
+          React
+        </a>
+        <ul class="nav-site nav-site-internal">
+          <li><a href="docs/getting-started.html"{% if page.sectionid == 'docs' or page.sectionid == 'tips' %} class="active"{% endif %}>Docs</a></li>
+          <li><a href="support.html"{% if page.id == 'support' %} class="active"{% endif %}>Support</a></li>
+          <li><a href="downloads.html"{% if page.id == 'downloads' %} class="active"{% endif %}>Download</a></li>
+          <li><a href="blog/"{% if page.sectionid == 'blog' %} class="active"{% endif %}>Blog</a></li>
+        </ul>
+
+        <ul class="nav-site nav-site-external">
+          <li><a href="https://github.com/facebook/react">GitHub</a>
+        </ul>
+      </div>
+    </div>
+
+    {% if page.id == 'home' %}
+    <div class="hero">
+      <div class="wrap">
+        <div class="text"><strong>React</strong></div>
+        <div class="minitext">
+          A JavaScript library for building user interfaces
+        </div>
+
+        <div class="buttons-unit">
+          <a href="docs/getting-started.html" class="button">Get Started</a>
+          <a href="/training/downloads.html" class="button">Download React v{{site.react_version}}</a>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    {{ content }}
+
+    <footer class="wrap">
+      <div class="left">
+        Facebook and instagram for swanky documentation
+        <a href="/training/acknowledgements.html">Acknowledgements</a>
+      </div>
+      <div class="right">
+        &copy; 2015&ndash;{{ site.time | date: '%Y' }} Outware<br>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
