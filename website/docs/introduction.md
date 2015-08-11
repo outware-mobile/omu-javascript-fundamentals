@@ -1,6 +1,6 @@
 ---
 id: introduction
-title: introduction
+title: Introduction
 permalink: introduction.html
 prev: thinking-in-react.html
 next: videos.html
@@ -8,7 +8,7 @@ next: videos.html
 
 ### What is Coffeescript ?
 
-Coffeescript is a programming language that transcompiles to Javascripts. Its
+Coffeescript is a programming language that transcompiles to Javascript. Its
 syntax, which is heavily influence by Ruby and Python programming language, is
 designed to improve readability and brevity of Javascript.
 
