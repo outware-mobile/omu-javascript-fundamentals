@@ -53,4 +53,4 @@ internet about the pros and cons of coffeescript. There is also ES6, the next
 version of Javascript which the Javascript creator claimed is heavily influcence
 by Coffeescript.
 
-For now, let's enjoy Coffeescript.
+For now, let's learn Coffeescript.
