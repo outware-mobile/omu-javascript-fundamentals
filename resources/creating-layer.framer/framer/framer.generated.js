@@ -6,7 +6,7 @@ window.Framer.Defaults.DeviceView = {"deviceScale":-1,"deviceType":"iphone-6-sil
 
 window.Framer.Defaults.DeviceComponent = {"deviceScale":-1,"deviceType":"iphone-6-silver","contentScale":1,"orientation":0};
 
-window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"om.framer"};
+window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"creating-layer.framer"};
 
 Framer.Device = new Framer.DeviceView();
 Framer.Device.setupContext();
@@ -692,7 +692,7 @@ Runtime = (function(superClass) {
         error.lineNumber = ((ref = result.error.location) != null ? ref.first_line : void 0) + 1;
       }
       bridge.sendError(error);
-      throw new Error("Framer syntax error line " + error.lineNumber + ": " + e.message);
+      throw new Error("Framer syntax error line " + error.lineNumber + ": " + error.message);
     }
     return result;
   };
