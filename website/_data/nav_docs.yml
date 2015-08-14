@@ -6,17 +6,17 @@
   items:
   - id: introduction
     title: Introduction
-  - id: videos
+  - id: math
     title: Math
-  - id: complementary-tools
+  - id: string
     title: String
-  - id: examples
+  - id: variable
     title: Variable 
-  - id: examples
+  - id: function
     title: Function 
-  - id: examples
+  - id: object
     title: Object 
-- title: Framer 101
+- title: Framer
   items:
   - id: react
     title: What is FramerJS?
