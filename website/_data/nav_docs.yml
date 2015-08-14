@@ -1,10 +1,8 @@
-- title: Pre-requisites 
+- title: Getting Started 
   items:
   - id: getting-started
     title: Tools 
-  - id: tutorial
-    title: Coffeescript 
-- title: Coffeescript 101 
+- title: Coffeescript
   items:
   - id: introduction
     title: Introduction
