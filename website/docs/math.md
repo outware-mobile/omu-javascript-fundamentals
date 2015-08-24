@@ -2,8 +2,8 @@
 id: math
 title: Math
 permalink: math.html
-prev: thinking-in-react.html
-next: videos.html
+prev: introduction.html
+next: string.html
 ---
 
 Basic math concepts: + - * /

@@ -2,8 +2,8 @@
 id: variable 
 title: Variable
 permalink: variable.html
-prev: thinking-in-react.html
-next: videos.html
+prev: string.html
+next: function.html
 ---
 
 a variable or scalar is a storage location paired with an associated symbolic

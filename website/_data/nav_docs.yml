@@ -1,6 +1,6 @@
 - title: Getting Started 
   items:
-  - id: getting-started
+  - id: tools
     title: Tools 
 - title: Coffeescript
   items:
@@ -21,16 +21,14 @@
   - id: What is framer?
     title: What is FramerJS?
   - id: layer
-    title: Layers 
+    title: Layer 
     subitems:
-    - id: jsx-in-depth
-      title: JSX in Depth
-    - id: jsx-spread
-      title: JSX Spread Attributes
-    - id: jsx-gotchas
-      title: JSX Gotchas
-  - id: interactivity-and-dynamic-uis
-    title: Events
+    - id: layer-property
+      title: Properties
+    - id: layer-positioning
+      title: Positioning
+  - id: animate
+    title: Animation
   - id: multiple-components
     title: 
   - id: reusable-components

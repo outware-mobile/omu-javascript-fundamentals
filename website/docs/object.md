@@ -3,6 +3,6 @@
 id: layer
 title: Layer
 permalink: layer.html
-prev: thinking-in-react.html
-next: videos.html
+prev: function.html
+next: layer.html
 ---

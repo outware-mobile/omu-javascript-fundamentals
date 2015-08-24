@@ -2,8 +2,8 @@
 id: introduction
 title: Introduction
 permalink: introduction.html
-prev: thinking-in-react.html
-next: videos.html
+prev: tools.html
+next: math.html
 ---
 
 ### What is Coffeescript ?

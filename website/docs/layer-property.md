@@ -1,9 +1,9 @@
 ---
 id: layer-property
 title: Properties
-permalink: layer-properties.html
-prev: thinking-in-react.html
-next: videos.html
+permalink: layer-property.html
+prev: object.html
+next: layer-positioning.html
 ---
 
 #### Create a layer
@@ -27,7 +27,7 @@ layer = new Layer
 ```
 
 Much better! Our layer does not only has 4 properties specified above. There are
-also scale, opacity, etc (Refer to the excellent documentation / ide).
+also scale, opacity, etc (Refer to the excellent FramerJS documentation).
 
 ```
 layer = new Layer
@@ -38,10 +38,12 @@ layer = new Layer
 
 [creating-layer.framer](path to creating-layer.framer)
 
+Congratulations! You just create a layer in Framer.
+
 #### Override a layer's properties
 
-Can we change the layer we just created to Red ? Of course!, to *override* the
-properties, we just simply reassign the properties by altering our code 
+Can we change the layer we just created to Red ? Of course!, to *override*
+existing properties, we just simply reassign the properties by altering our code
 
 ```
 layer = new Layer
