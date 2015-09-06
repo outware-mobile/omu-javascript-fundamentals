@@ -12,8 +12,6 @@ Animation is an important concept in prototyping using Framer. A prototype that
 has collection of static layers is not different from the prototype that is
 created in Photoshop or Sketch. 
 
-Framer's strength is taking these UI layers and make them interactive. 
-
 Let's create our first animation. To animate a layer, we will use ```animate
 ``` method of a layer object.
 
