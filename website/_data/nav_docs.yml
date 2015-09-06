@@ -27,7 +27,7 @@
       title: Properties
     - id: layer-positioning
       title: Positioning
-  - id: animate
+  - id: animation
     title: Animation
   - id: multiple-components
     title: 
