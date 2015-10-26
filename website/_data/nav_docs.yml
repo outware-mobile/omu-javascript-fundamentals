@@ -1,7 +1,7 @@
-- title: Getting Started 
+- title: Prerequisites
   items:
-  - id: tools
-    title: Tools 
+  - id: getting-started
+    title: Getting Started 
 - title: Coffeescript
   items:
   - id: introduction
@@ -11,17 +11,17 @@
   - id: string
     title: String
   - id: variable
-    title: Variable 
+    title: Variable
   - id: function
-    title: Function 
+    title: Function
   - id: object
-    title: Object 
+    title: Object
 - title: Framer
   items:
   - id: What is framer?
     title: What is FramerJS?
   - id: layer
-    title: Layer 
+    title: Layer
     subitems:
     - id: layer-property
       title: Properties
@@ -29,3 +29,5 @@
       title: Positioning
   - id: animation
     title: Animation
+  - id: event
+    title: Event

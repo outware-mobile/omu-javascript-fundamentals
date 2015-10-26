@@ -1,4 +1,6 @@
-- title: References
+- title: References & Resources
   items:
-  - id: introduction
-    title: Introduction
+  - id: coffeescript-ref
+    title: Coffeescript
+  - id: framer-ref
+    title: Framer

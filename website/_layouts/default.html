@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>{{ page.title }} | React</title>
+  <title>{{ page.title }} | Framer</title>
   <meta name="viewport" content="width=device-width">
 
   <link rel="shortcut icon" href="/favicon.ico">
@@ -31,15 +31,13 @@
 
     <div class="nav-main">
       <div class="wrap">
-        <a class="nav-home" href="index.html">
+        <a class="nav-home" href="/">
           Outware
         </a>
 
         <ul class="nav-site nav-site-internal">
-          <li><a href="/docs/tools.html"{% if page.sectionid == 'docs' or page.sectionid == 'tips' %} class="active"{% endif %}>Getting
+          <li><a href="/docs/getting-started.html"{% if page.sectionid == 'docs' or page.sectionid == 'tips' %} class="active"{% endif %}>Getting
               Started </a></li>
-          <li><a href="support.html"{% if page.id == 'support' %}
-              class="active"{% endif %}>Resources</a></li>
           <li><a href="downloads.html"{% if page.id == 'downloads' %}
               class="active"{% endif %}>Examples</a></li>
         </ul>
@@ -54,7 +52,8 @@
 
     <footer class="wrap">
       <div class="left">
-        Facebook for swanky documentation 
+        This guide format is heavily inspired by React project documentation
+        by Facebook.
       </div>
       <div class="right">
         &copy; 2015&ndash;{{ site.time | date: '%Y' }} Outware<br>

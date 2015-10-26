@@ -1,7 +1,7 @@
 ---
-id: tools
-title: Tools
-permalink: tools.html
+id: getting-started
+title: Getting started
+permalink: getting-started.html
 next: introduction.html
 ---
 

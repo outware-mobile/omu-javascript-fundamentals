@@ -6,8 +6,9 @@ prev: thinking-in-react.html
 next: videos.html
 ---
 
-String is a series of characters like "Framer is cool".
-It is wrapped between " character.
+The second important data type is **String**.
+
+String is a series of characters wrapped between *"*.
 
 ```
 coffee> "Framer is cool"
@@ -15,7 +16,6 @@ coffee> 'Framer is cool'
 ```
 
 Couple of interesting operations with string.
-
 
 #### Concatenation 
 ```

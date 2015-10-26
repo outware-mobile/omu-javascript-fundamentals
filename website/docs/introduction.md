@@ -15,7 +15,7 @@ designed to improve readability and brevity of Javascript.
 Hmm...What is Javascript anyway? To understand what is Javascript, we first
 need to know brief history of web.
 
-### HTML, CSS and Javascript (The three musketeers of Web)
+### HTML, CSS and Javascript
 
 Lets use a house construction as an analogy. We can think of HTML as the
 *structure* and foundation of the buildings. The engineer designs where to

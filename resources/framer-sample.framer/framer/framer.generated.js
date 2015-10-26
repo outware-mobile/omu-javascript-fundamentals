@@ -2,6 +2,49 @@
 
 
 window.__imported__ = window.__imported__ || {};
+window.__imported__["ba/layers.json.js"] = [
+  {
+    "maskFrame" : null,
+    "children" : [
+      {
+        "maskFrame" : null,
+        "id" : "BA02CDC0-13B0-4786-A13C-95C25EDEDD4D",
+        "visible" : true,
+        "children" : [
+
+        ],
+        "image" : {
+          "path" : "images\/Layer-Line-BA02CDC0-13B0-4786-A13C-95C25EDEDD4D.png",
+          "frame" : {
+            "y" : 844,
+            "x" : 557,
+            "width" : 64,
+            "height" : 197
+          }
+        },
+        "imageType" : "png",
+        "layerFrame" : {
+          "y" : 844,
+          "x" : 557,
+          "width" : 64,
+          "height" : 197
+        },
+        "name" : "Line"
+      }
+    ],
+    "id" : "86DE6374-181E-4FB7-A102-1242D2EE9053",
+    "visible" : true,
+    "imageType" : "png",
+    "layerFrame" : {
+      "y" : 0,
+      "x" : 0,
+      "width" : 1242,
+      "height" : 2208
+    },
+    "name" : "iPhone_6_Plus"
+  }
+]
+window.__imported__ = window.__imported__ || {};
 window.__imported__["iPhone 6 Template/layers.json.js"] = [
   {
     "maskFrame" : {
@@ -10,18 +53,18 @@ window.__imported__["iPhone 6 Template/layers.json.js"] = [
       "width" : 750,
       "height" : 1334
     },
-    "id" : "467D259F-657A-4BEC-B60C-B8649B3A5542",
+    "id" : "74A7D9E6-DD7D-43A6-949D-93D60FDF61DF",
     "visible" : true,
     "children" : [
       {
         "maskFrame" : null,
-        "id" : "A86820BD-4D5F-44EF-AEBB-21FEEF30391A",
+        "id" : "F6D9201F-9A60-4EC5-95B2-51CB619A1F47",
         "visible" : true,
         "children" : [
 
         ],
         "image" : {
-          "path" : "images\/Layer-statusBar-A86820BD-4D5F-44EF-AEBB-21FEEF30391A.png",
+          "path" : "images\/Layer-statusBar-F6D9201F-9A60-4EC5-95B2-51CB619A1F47.png",
           "frame" : {
             "y" : 0,
             "x" : 0,
@@ -40,13 +83,13 @@ window.__imported__["iPhone 6 Template/layers.json.js"] = [
       },
       {
         "maskFrame" : null,
-        "id" : "EA2E254D-4F05-45F5-B120-33C145CE7923",
+        "id" : "DE51A6D2-4BE0-4308-BB54-E7E369708240",
         "visible" : true,
         "children" : [
 
         ],
         "image" : {
-          "path" : "images\/Layer-navBar-EA2E254D-4F05-45F5-B120-33C145CE7923.png",
+          "path" : "images\/Layer-navBar-DE51A6D2-4BE0-4308-BB54-E7E369708240.png",
           "frame" : {
             "y" : 0,
             "x" : 0,
@@ -65,18 +108,18 @@ window.__imported__["iPhone 6 Template/layers.json.js"] = [
       },
       {
         "maskFrame" : null,
-        "id" : "C7F707CA-04FE-4EE4-995E-06B68173F067",
+        "id" : "872E0FF7-43A4-4E56-BA7A-2B3C1C2885C8",
         "visible" : true,
         "children" : [
           {
             "maskFrame" : null,
-            "id" : "5E358598-E973-4248-B288-BE3F2F2C02C1",
+            "id" : "AE064561-06C2-4F20-B885-99B156417F44",
             "visible" : true,
             "children" : [
 
             ],
             "image" : {
-              "path" : "images\/Layer-iconAlbums-5E358598-E973-4248-B288-BE3F2F2C02C1.png",
+              "path" : "images\/Layer-iconAlbums-AE064561-06C2-4F20-B885-99B156417F44.png",
               "frame" : {
                 "y" : 1248,
                 "x" : 553,
@@ -95,13 +138,13 @@ window.__imported__["iPhone 6 Template/layers.json.js"] = [
           },
           {
             "maskFrame" : null,
-            "id" : "63CB48BD-ED6A-4CF2-809E-50E593D17396",
+            "id" : "9779F006-80BE-47C8-9DE7-92621485A97B",
             "visible" : true,
             "children" : [
 
             ],
             "image" : {
-              "path" : "images\/Layer-iconShared-63CB48BD-ED6A-4CF2-809E-50E593D17396.png",
+              "path" : "images\/Layer-iconShared-9779F006-80BE-47C8-9DE7-92621485A97B.png",
               "frame" : {
                 "y" : 1251,
                 "x" : 341,
@@ -120,13 +163,13 @@ window.__imported__["iPhone 6 Template/layers.json.js"] = [
           },
           {
             "maskFrame" : null,
-            "id" : "F79F21BE-BF0C-42B6-99E2-9DAB0FA42D53",
+            "id" : "72846AB0-6CBA-4D2E-B9EB-81B499DB3999",
             "visible" : true,
             "children" : [
 
             ],
             "image" : {
-              "path" : "images\/Layer-iconPhotos-F79F21BE-BF0C-42B6-99E2-9DAB0FA42D53.png",
+              "path" : "images\/Layer-iconPhotos-72846AB0-6CBA-4D2E-B9EB-81B499DB3999.png",
               "frame" : {
                 "y" : 1250,
                 "x" : 132,
@@ -145,7 +188,7 @@ window.__imported__["iPhone 6 Template/layers.json.js"] = [
           }
         ],
         "image" : {
-          "path" : "images\/Layer-tabBar-C7F707CA-04FE-4EE4-995E-06B68173F067.png",
+          "path" : "images\/Layer-tabBar-872E0FF7-43A4-4E56-BA7A-2B3C1C2885C8.png",
           "frame" : {
             "y" : 1236,
             "x" : 0,
@@ -164,7 +207,7 @@ window.__imported__["iPhone 6 Template/layers.json.js"] = [
       }
     ],
     "image" : {
-      "path" : "images\/Layer-screen-467D259F-657A-4BEC-B60C-B8649B3A5542.png",
+      "path" : "images\/Layer-screen-74A7D9E6-DD7D-43A6-949D-93D60FDF61DF.png",
       "frame" : {
         "y" : 0,
         "x" : 0,
@@ -183,11 +226,11 @@ window.__imported__["iPhone 6 Template/layers.json.js"] = [
   }
 ]
 if (typeof(DeviceComponent) !== "undefined") {DeviceComponent.Devices["iphone-6-silver"].deviceImageJP2 = false};
-window.Framer.Defaults.DeviceView = {"deviceScale":-1,"deviceType":"iphone-6-silver","contentScale":1,"orientation":0};
+window.Framer.Defaults.DeviceView = {"deviceScale":-1,"deviceType":"iphone-6plus-silver","contentScale":1,"orientation":0};
 
-window.Framer.Defaults.DeviceComponent = {"deviceScale":-1,"deviceType":"iphone-6-silver","contentScale":1,"orientation":0};
+window.Framer.Defaults.DeviceComponent = {"deviceScale":-1,"deviceType":"iphone-6plus-silver","contentScale":1,"orientation":0};
 
-window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"creating-layer.framer"};
+window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"framer-sample.framer"};
 
 Framer.Device = new Framer.DeviceView();
 Framer.Device.setupContext();
